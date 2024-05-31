@@ -718,9 +718,10 @@ footer {
 }
 
 .title-cover {
-    font-size: 10em;
-    margin: 0;
-    color: var(--dark);
+    /* font-size: 10em;
+    margin: 0; */
+    /* color: var(--dark); */
+    height: 20rem;
 }
 
 .banner-cover,
@@ -730,9 +731,14 @@ footer {
 }
 
 .banner-cover {
-    background-image: url(../img/banner.png);
-    height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
+                url("../img/banner.png") fixed;
+    background-size: cover;        /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center;   /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita la repetición de la imagen */
+    height: 100vh;                 /* Altura del 100% del viewport */
 }
+
 
 .banner-container {
     height: 100%;
@@ -754,11 +760,13 @@ footer {
     background-position: center top;
     background-size: cover;
 }
-
+/* 
 .banner-cover {
+    background:  linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),
+                url("../img/banner.png") fixed;
     background-image: url(../img/banner.png);
     height: 100vh;
-}
+} */
 
 .banner-second {
     background-image: url(../img/banner-second.jpg);
@@ -798,7 +806,13 @@ footer {
 
 @media screen and (min-width: 1023px) {
     .banner-cover {
-        background-image: url(../img/banner-large.jpg);
+        background:  linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),
+                url("../img/banner-large.jpg");
+    background-size: cover;        /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center;   /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita la repetición de la imagen */
+    /* height: 100vh;  */
+        /* background-image: url(../img/banner-large.jpg); */
     }
 }
 
