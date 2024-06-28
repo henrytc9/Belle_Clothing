@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+
+.text-name {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-job {
+    font-family: 'Signika Negative', sans-serif;
+}
+
 .logo {
     height: 18rem;
+}
+
+.color-transparent {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.image-catalogo {
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),
+                url("../img/seccion-catalogo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

@@ -9,42 +9,50 @@
     <link rel="stylesheet" href="css/material-design-iconic-font.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
+    <!-- <link href="./output.css" rel="stylesheet"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Belle Clothing</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VF57VJSFQY"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-VF57VJSFQY');
     </script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5X8DLTNZ');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5X8DLTNZ');</script>
     <!-- End Google Tag Manager -->
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X8DLTNZ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X8DLTNZ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Barra de navegación -->
     <header>
         <nav class="navbar-top">
             <ul class="navbar-top-ul">
                 <li class="navbar-top-item">
-                    <a href="https://wa.me/51925768026" class="navbar-top-links"><i class="zmdi zmdi-whatsapp"></i> WhatsApp</a>
+                    <a href="https://wa.me/51925768026" class="navbar-top-links"><i class="zmdi zmdi-whatsapp"></i>
+                        WhatsApp</a>
                 </li>
                 <li class="navbar-top-item">
-                    <a href="https://www.facebook.com/profile.php?id=100052223473489" class="navbar-top-links"><i class="zmdi zmdi-facebook-box"></i> Facebook</a>
+                    <a href="https://www.facebook.com/profile.php?id=100052223473489" class="navbar-top-links"><i
+                            class="zmdi zmdi-facebook-box"></i> Facebook</a>
                 </li>
                 <li class="navbar-top-item">
-                    <a href="https://www.tiktok.com/@belle_clothingg?_t=8mtvuKCoeoP&_r=1" class="navbar-top-links">Tiktok</a>
+                    <a href="https://www.tiktok.com/@belle_clothingg?_t=8mtvuKCoeoP&_r=1"
+                        class="navbar-top-links">Tiktok</a>
                 </li>
             </ul>
         </nav>
@@ -53,18 +61,19 @@
                 <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
                 <a class="navbar-mobile-link has-text-white" href="#">Belle Clothing</a>
             </header>
-            <nav class="nav-menu --nav-dark-light" id="mySidenav">
-                <form class="form-group " action="#">
+            <nav class="nav-menu --nav-dark-light color-transparent" id="mySidenav">
+                <!-- <form class="form-group " action="#">
                     <div class="form-group-container">
                         <span class="form-group-icon"><i class="zmdi zmdi-search"></i></span>
                         <input type="text" class="form-group-input" placeholder="Buscar...">
                     </div>
-                </form>
-    
-                <a class="is-hidden-mobile brand is-uppercase has-text-weight-bold has-text-dark" href="index.html">Belle Clothing</a>
+                </form> -->
+
+                <a class="brand is-uppercase has-text-weight-bold text-neutral-200 hover:text-[#42c8c8]"
+                    href="index.html">Belle Clothing</a>
                 <ul class="nav-menu-ul">
                     <li class="nav-menu-item" id="men">
-                        <a class="nav-menu-link link-submenu" href="#">Catalogo <i
+                        <a class="nav-menu-link link-submenu text-neutral-200 hover:text-[#42c8c8]" href="#">Catalogo <i
                                 class="zmdi zmdi-chevron-down"></i></a>
                         <div class="container-sub-menu">
                             <ul class="sub-menu-ul">
@@ -101,12 +110,12 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-menu-item"><a href="lookbook.html" class="nav-menu-link">Ofertas</a></li>
-                    <li class="nav-menu-item"><a href="brand.html" class="nav-menu-link">Sobre Nosotros</a></li>
+                    <li class="nav-menu-item"><a href="lookbook.html" class="nav-menu-link text-neutral-200 hover:text-[#42c8c8]">Ofertas</a></li>
+                    <li class="nav-menu-item"><a href="brand.html" class="nav-menu-link text-neutral-200 hover:text-[#42c8c8]">Sobre Nosotros</a></li>
                 </ul>
             </nav>
         </nav>
-    </header>  
+    </header>
     <!-- Banner -->
     <div class="banner banner-cover">
         <div class="banner-container ">
@@ -137,9 +146,12 @@
                             <span class="price">S/ 46.00</span>
                             <img src="img/item-1.png" alt="">
                             <div class="card-info">
-                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Blusa Aldana <br> S/ 46.00 </h4>
-                                <p class="has-text-centered">Esta blusa de seda satinada ofrece suavidad y lujo, adaptándose a cualquier ocasión. 
-                                    Su diseño atemporal realza tu estilo con distinción y comodidad. Disponible en tallas S, M y L.</p>
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Blusa Aldana <br> S/
+                                    46.00 </h4>
+                                <p class="has-text-centered">Esta blusa de seda satinada ofrece suavidad y lujo,
+                                    adaptándose a cualquier ocasión.
+                                    Su diseño atemporal realza tu estilo con distinción y comodidad. Disponible en
+                                    tallas S, M y L.</p>
                                 <div class="card-buttons">
                                     <a href="#" class="btn btn--mini-rounded"><i
                                             class="zmdi zmdi-shopping-cart"></i></a>
@@ -156,8 +168,10 @@
                             <span class="price">S/ 55.00</span>
                             <img src="img/item-2.png" alt="">
                             <div class="card-info">
-                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Body Blusa Layla <br> S/ 55.00 </h4>
-                                <p class="has-text-centered">Elegante body blusa de seda, disponible en tallas S, M y L. Perfecto 
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Body Blusa Layla <br>
+                                    S/ 55.00 </h4>
+                                <p class="has-text-centered">Elegante body blusa de seda, disponible en tallas S, M y L.
+                                    Perfecto
                                     para cualquier ocasión, combinando estilo y comodidad.</p>
                                 <div class="card-buttons">
                                     <a href="#" class="btn btn--mini-rounded"><i
@@ -174,12 +188,15 @@
                     <div class="column is-full">
                         <div class="card">
                             <span class="price">S/ 75.00</span>
-                            
-                                <img src="img/item-3.png" alt="">
+
+                            <img src="img/item-3.png" alt="">
                             <div class="card-info">
-                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Gabardina Crop <br> S/ 75.00 </h4>
-                                <p class="has-text-centered">Una gabardina crop moderna y chic, disponible en tallas 28, 30 y 32. 
-                                    Hecha de resistente material de jeans rígido, esta prenda es una mezcla perfecta de estilo y 
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Gabardina Crop <br>
+                                    S/ 75.00 </h4>
+                                <p class="has-text-centered">Una gabardina crop moderna y chic, disponible en tallas 28,
+                                    30 y 32.
+                                    Hecha de resistente material de jeans rígido, esta prenda es una mezcla perfecta de
+                                    estilo y
                                     durabilidad. ¡Todo esto por solo 75 soles!</p>
                                 <div class="card-buttons">
                                     <a href="#" class="btn btn--mini-rounded"><i
@@ -199,12 +216,16 @@
                 <div class="columns is-mobile is-multiline">
                     <div class="column is-full">
                         <div class="card">
-                            <span class="price"><strike>S/ 107.00</strike>  S/ 45.00</span>
-                                <img src="img/item-4.png" alt="">
+                            <span class="price"><strike>S/ 107.00</strike> S/ 45.00</span>
+                            <img src="img/item-4.png" alt="">
                             <div class="card-info">
-                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Blusa Estefanía <br>S/ 45.00 </h4>
-                                <p class="has-text-centered">Exquisita blusa de gasa india en talla estándar (S, M), ofreciendo un 
-                                    ajuste perfecto para diferentes tipos de cuerpo. A solo 45 soles, esta prenda combina elegancia 
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Blusa Estefanía
+                                    <br>S/ 45.00
+                                </h4>
+                                <p class="has-text-centered">Exquisita blusa de gasa india en talla estándar (S, M),
+                                    ofreciendo un
+                                    ajuste perfecto para diferentes tipos de cuerpo. A solo 45 soles, esta prenda
+                                    combina elegancia
                                     y asequibilidad.</p>
                                 <div class="card-buttons">
                                     <a href="#" class="btn btn--mini-rounded"><i
@@ -222,9 +243,11 @@
                             <span class="price">S/ 85.00</span>
                             <img src="img/item-5.png" alt="">
                             <div class="card-info">
-                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Gabardina Importada <br> S/ 85.00</h4>
-                                <p class="has-text-centered">Gabardina de calidad en talla M, ofreciendo 
-                                    estilo y confort. A un precio de 85 soles, es una opción elegante y asequible 
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Gabardina Importada
+                                    <br> S/ 85.00
+                                </h4>
+                                <p class="has-text-centered">Gabardina de calidad en talla M, ofreciendo
+                                    estilo y confort. A un precio de 85 soles, es una opción elegante y asequible
                                     para tu guardarropa.
 
                                 </p>
@@ -244,9 +267,10 @@
                             <span class="price">S/ 45.00</span>
                             <img src="img/item-6.png" alt="">
                             <div class="card-info">
-                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Maxi Falda Tania <br> S/ 45.00 </h4>
-                                <p class="has-text-centered">Una encantadora maxi falda llamada Tania, disponible en 
-                                    talla estándar (S, M) y confeccionada en suave material viena. Esta falda 
+                                <h4 class="has-text-black has-text-centered has-text-weight-bold"> Maxi Falda Tania <br>
+                                    S/ 45.00 </h4>
+                                <p class="has-text-centered">Una encantadora maxi falda llamada Tania, disponible en
+                                    talla estándar (S, M) y confeccionada en suave material viena. Esta falda
                                     añadirá un toque de elegancia y comodidad a tu estilo.</p>
                                 <div class="card-buttons">
                                     <a href="#" class="btn btn--mini-rounded"><i
@@ -263,60 +287,28 @@
             </div>
         </div>
     </div>
-    <div class="container container-full">
-    <div class="columns is-centered is-multiline">
-        <div class="column is-full">
-            <div class="separator"></div>
-        </div>
-        <div class="column is-half-tablet is-one-third-desktop column-half">
-            <div class="card card-second">
-                <img class="card-second-image" src="img/lookbook-men.png" alt="">
-                <div class="card-second-body --text-right">
-                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Catálogo</h1>
-                    <p class="has-text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptatum labore quae reiciendis, corrupti debitis dicta
-                    </p>
-                    <div>
-                        <a href="#" class="btn btn-default is-size-7">Ver ahora</a>
-                    </div>
-                    </p>
-                    
-                    
-                </div>
-            </div>
-        </div>
-        <div class="column is-half-tablet is-one-third-desktop column-half">
-            <div class="card card-second">
-                <img class="card-second-image" src="img/lookbook-women.png" alt="">
-                <div class="card-second-body --text-right">
-                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Catálogo</h1>
-                    <p class="has-text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptatum labore quae reiciendis, corrupti debitis dicta
-                    </p>
-                    <div>
-                        <a href="#" class="btn btn-default is-size-7">Ver ahora</a>
-                    </div>
-                </div>
-            </div>
 
+
+    <section class="flex flex-row justify-center items-center max-[768px]:flex-col image-catalogo">
+        <div class="content-center min-[768px]:me-32 max-[768px]:m-5 max-[640px]:w-72 w-96">
+            <h1 class="text-name min-[769px]:text-6xl max-[768px]:text-4xl text-neutral-200">
+                ¡PARA MÁS INFORMACIÓN VISITA NUESTRO CATÁLOGO!
+            </h1>
         </div>
-        <div class="column is-half-tablet is-one-third-desktop">
-            <div class="card card-second">
-                <img class="card-second-image" src="img/lookbook-you.png" alt="">
-                <div class="card-second-body --text-right">
-                    <h1 class="has-text-right is-size-4 has-text-weight-semibold-bold">Catálogo</h1>
-                    <p class="has-text-right">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptatum labore quae reiciendis, corrupti debitis dicta
-                    </p>
-                    <div>
-                        <a href="#" class="btn btn-default is-size-7">Ver ahora</a>
-                    </div>
-                </div>
+        <div class="content-center max-[640px]:w-72 w-96 mx-1">
+            <p class="text-justify text-neutral-200">"Descubre nuestra colección exclusiva para mujeres, diseñada para
+                realzar tu estilo con prendas elegantes y modernas. Desde lo casual hasta lo chic, cada
+                artículo combina calidad y diseño para ofrecerte lo mejor en moda femenina."
+            </p>
+            <div class="mt-10 text-center">
+                <a href="https://drive.google.com/file/d/1bwKhDSQH7KLpqqd4YuG7I5kvaqmxYg45/view?usp=sharing" 
+                class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">Ver ahora</a>
             </div>
         </div>
-    </div>
-</div>
-<footer class="footer">
+    </section>
+
+
+    <footer class="footer">
         <div class="container">
             <div class="columns is-multiline">
                 <div class="column">
