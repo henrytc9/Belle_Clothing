@@ -13,6 +13,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Belle Clothing</title>
     <link rel="icon" href="./img/icono.ico" type="image/x-icon">
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VF57VJSFQY"></script>
     <script>
@@ -71,10 +72,12 @@
                 </form> -->
 
                 <a class="brand is-uppercase has-text-weight-bold text-neutral-200 hover:text-[#42c8c8]"
-                    href="index.html">Belle Clothing</a>
+                    href="index.html">
+                    Belle Clothing
+                </a>
                 <ul class="nav-menu-ul">
                     <li class="nav-menu-item" id="men">
-                        <a class="nav-menu-link link-submenu text-neutral-200 hover:text-[#42c8c8]" href="#">Catalogo <i
+                        <a class="nav-menu-link link-submenu text-neutral-200 hover:text-[#42c8c8]" href="#">Descubre<i
                                 class="zmdi zmdi-chevron-down"></i></a>
                         <div class="container-sub-menu">
                             <ul class="sub-menu-ul">
@@ -119,11 +122,24 @@
     </header>
     <!-- Banner -->
     <div class="banner banner-cover">
-        <div class="banner-container ">
-            <!-- <h1 class="title-cover">AVE</h1> -->
-            <img src="./img/logo.png" class="logo" alt="jpg">
-            <!-- <a class="btn btn-default">¡Nuestra tienda, tu estilo!</a> -->
+        <div class="banner-container">
+            <div class="flex flex-row items-center justify-center">
+                <img src="./img/logo.png" class="h-56" alt="jpg">
+                <div class="border-l-4 border-indigo-500 w-96 h-28">
+                    <p class="playwrite text-gray-300">"¡Bienvenida a Belle Clothing! Descubre moda elegante y confortable. Estamos aquí para ayudarte a encontrar tu estilo perfecto..."</p>
+                </div>
+            </div>
+                <div class="fade-in-out">
+                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#e8eaed"><path d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg>
+                </div>
         </div>
+    </div>
+
+    <div class="fixed bottom-4 right-4 text-center">
+        <img class="h-24 m-0" src="/img/static.gif" alt="gif">
+        <a href="/catalogo" class="bg-indigo-600 m-0 hover:text-white text-white py-2 px-4 rounded-md shadow-md hover:bg-indigo-500 hover:shadow-lg transition duration-300 ease-in-out">
+            Catálogo
+        </a>
     </div>
 
     <!-- Barra de navegacion secundaria -->

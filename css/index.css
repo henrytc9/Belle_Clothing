@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU&display=swap');
+
+
 .text-name {
     font-family: 'Ubuntu', sans-serif;
 }
 
 .text-job {
     font-family: 'Signika Negative', sans-serif;
-}
-
-.logo {
-    height: 18rem;
 }
 
 .color-transparent {
@@ -24,4 +23,20 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.playwrite {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.fade-in-out {
+    animation: fadeInOut 2s infinite;
 }
