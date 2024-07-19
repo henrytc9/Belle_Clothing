@@ -799,7 +799,7 @@ footer {
 
 @media screen and (min-width: 1023px) {
     .banner-cover {
-        background:  linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12,0.5)),
+        background:  
                 url("../img/banner-large.jpg");
     background-size: cover;        /* Asegura que la imagen cubra todo el contenedor */
     background-position: center;   /* Centra la imagen */
