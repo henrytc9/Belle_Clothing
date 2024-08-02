@@ -13,6 +13,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Belle Clothing</title>
     <link rel="icon" href="./img/icono.ico" type="image/x-icon">
+    <meta name="description" content="Detalles del producto en BELLE CLOTHING">
+    <meta name="keywords" content="moda, ropa sostenible, ropa ecológica, BELLE CLOTHING">
+    <meta name="author" content="BELLE CLOTHING">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="icon" href="images/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js" defer></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VF57VJSFQY"></script>
@@ -36,92 +46,39 @@
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X8DLTNZ" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- Barra de navegación -->
     <header>
-        <nav class="navbar-top">
-            <ul class="navbar-top-ul">
-                <li class="navbar-top-item">
-                    <a href="https://wa.me/51925768026" target="_blank" class="navbar-top-links"><i
-                            class="zmdi zmdi-whatsapp"></i>
-                        WhatsApp</a>
-                </li>
-                <li class="navbar-top-item">
-                    <a href="https://www.facebook.com/profile.php?id=100052223473489" target="_blank"
-                        class="navbar-top-links"><i class="zmdi zmdi-facebook-box"></i> Facebook</a>
-                </li>
-                <li class="navbar-top-item">
-                    <a href="https://www.tiktok.com/@belle_clothingg?_t=8mtvuKCoeoP&_r=1" target="_blank"
-                        class="navbar-top-links"><i class="zmdi zmdi-tumblr"></i> Tiktok</a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="navbar">
-            <header class="nabvar-mobile is-size-5-mobile">
-                <a class="navbar-mobile-link has-text-white" href="#" id="btn-mobile"><i class="zmdi zmdi-menu"></i></a>
-                <a class="navbar-mobile-link has-text-white" href="#">Belle Clothing</a>
-            </header>
-            <nav class="nav-menu --nav-dark-light color-transparent" id="mySidenav">
-                <!-- <form class="form-group " action="#">
-                    <div class="form-group-container">
-                        <span class="form-group-icon"><i class="zmdi zmdi-search"></i></span>
-                        <input type="text" class="form-group-input" placeholder="Buscar...">
-                    </div>
-                </form> -->
-
-                <a class="brand is-uppercase has-text-weight-bold text-neutral-200 hover:text-[#42c8c8]"
-                    href="index.html">
-                    Belle Clothing
-                </a>
-                <ul class="nav-menu-ul">
-                    <li class="nav-menu-item" id="men">
-                        <a class="nav-menu-link link-submenu text-neutral-200 hover:text-[#42c8c8]" href="#">Descubre<i
-                                class="zmdi zmdi-chevron-down"></i></a>
-                        <div class="container-sub-menu">
-                            <ul class="sub-menu-ul">
-                                <li class="nav-menu-item ">
-                                    <a class="nav-menu-link" href="#">
-                                        <strong>Casual</strong>
-                                        <i class="zmdi zmdi-chevron-down "></i>
-                                    </a>
-                                    <ul class="sub-menu-ul">
-                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
-                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisas Polo</a>
-                                        </li>
-                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
-                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <ul class="sub-menu-ul">
-                                <li class="nav-menu-item"><a class="nav-menu-link" href="#">
-                                        <strong>Formal</strong>
-                                        <i class="zmdi zmdi-chevron-down "></i>
-                                    </a>
-                                    <ul class="sub-menu-ul">
-                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Chaquetas</a></li>
-                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Camisetas</a></li>
-                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Trajes</a></li>
-                                        <li class="nav-menu-item"><a class="nav-menu-link" href="#">Pantalones</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <div class="ads is-hidden-touch">
-                                <h1 class="ads-h1">¡Contáctanos!</h1>
-                                <h2 class="ads-h2">Tenemos mucho más que ofrecerte</h2>
-                            </div>
-                        </div>
+        <div class="navbar-top">
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="announcement" id="announcement">ENVÍO GRATIS POR COMPRAS MAYORES A S/300 🛍️</div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs" id="productTab" role="tablist">
+                    <a class="navbar-mobile-link has-text-white" href="index.html">Belle Clothing</a>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="ropa-tab" data-toggle="tab" href="#ropa" role="tab"
+                            aria-controls="ropa" aria-selected="true">ROPA</a>
                     </li>
-                    <li class="nav-menu-item"><a href="lookbook.html"
-                            class="nav-menu-link text-neutral-200 hover:text-[#42c8c8]">Ofertas</a></li>
-                    <li class="nav-menu-item"><a href="brand.html"
-                            class="nav-menu-link text-neutral-200 hover:text-[#42c8c8]">Sobre Nosotros</a></li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="lonuevo-tab" data-toggle="tab" href="#lonuevo" role="tab"
+                            aria-controls="lonuevo" aria-selected="false">LO NUEVO</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="colecciones-tab" data-toggle="tab" href="#colecciones" role="tab"
+                            aria-controls="colecciones" aria-selected="false">COLECCIONES</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="ofertas-tab" data-toggle="tab" href="#ofertas" role="tab"
+                            aria-controls="ofertas" aria-selected="false">OFERTAS</a>
+                    </li>
+
                 </ul>
-            </nav>
-        </nav>
+
+            </div>
     </header>
     <!-- Banner -->
     <div class="banner banner-cover flex items-center pl-16">
@@ -132,10 +89,12 @@
                     <p class="playwrite text-gray-500">
                         <!-- "¡Bienvenida a Belle Clothing! Descubre moda elegante y
                         confortable. Estamos aquí para ayudarte a encontrar tu estilo perfecto..." -->
-                        Celebra la independencia del Perú con nuestras ofertas exclusivas en moda femenina. ¡Haz clic y sorpréndete!
+                        Celebra la independencia del Perú con nuestras ofertas exclusivas en moda femenina. ¡Haz clic y
+                        sorpréndete!
                     </p>
                     <div class="mt-10 mb-10 text-center">
-                        <a href="" class="inline-block bg-red-600 text-white hover:text-white py-2 px-4 rounded mt-4 hover:bg-red-500 border-solid">
+                        <a href=""
+                            class="inline-block bg-red-600 text-white hover:text-white py-2 px-4 rounded mt-4 hover:bg-red-500 border-solid">
                             Más detalles
                         </a>
                     </div>
@@ -167,7 +126,8 @@
         <div class="md:w-1/3 p-6 border-l-4 border-red-500 text-gray-500 text-center">
             <h2 class="text-3xl font-bold mb-4">¡Promoción Especial!</h2>
             <p class="mb-2">Si tu amiga nos contacta por WhatsApp, ambas recibirán un descuento adicional.</p>
-            <a href="https://wa.me/51925768026" class="inline-block bg-red-600 text-white hover:text-white py-2 px-4 rounded mt-4 hover:bg-red-500 border-solid">
+            <a href="https://wa.me/51925768026"
+                class="inline-block bg-red-600 text-white hover:text-white py-2 px-4 rounded mt-4 hover:bg-red-500 border-solid">
                 Contáctanos por WhatsApp
             </a>
         </div>
@@ -356,87 +316,71 @@
             </div>
         </div>
     </section>
+    
+    <div class="info-bar">
+        <div class="info-item">
+            <img src="shipping-icon.png" alt="Envíos">
+            <p>Envíos a todo el Perú</p>
+        </div>
+        <div class="info-item">
+            <img src="returns-icon.png" alt="Cambios y devoluciones">
+            <p>Cambios y devoluciones</p>
+        </div>
+        <div class="info-item">
+            <img src="giftcards-icon.png" alt="Gift cards">
+            <p>Gift cards</p>
+        </div>
+        <div class="info-item">
+            <img src="payment-icon.png" alt="Medios de pago">
+            <p>Medios de pago</p>
+        </div>
+    </div>
 
-
-    <footer class="footer">
-        <div class="container">
-            <div class="columns is-multiline">
-                <div class="column">
-                    <ul class="footer-ul">
-                        <li class="footer-item">
-                            <h3 class="has-text-weight-bold">Información</h3>
-                        </li>
-                        <li class="footer-item"><a class="footer-link" href="#">La marca</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Local stores</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Servicios </a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Mapa del sitio</a></li>
-                    </ul>
+    <!-- footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>NOSOTRAS</h2>
+                <p>Somos una marca en moda femenina. Ropa para una mujer urbana, actual y romántica. Hecho con
+                    <span>&#x2764;</span> por manos peruanas <span>&#x1F1F5;&#x1F1EA;</span>
+                </p>
+                <h1>BELLE CLOTHING</h1>
+            </div>
+            <div class="footer-section">
+                <h2>ENLACES DE INTERÉS</h2>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#">Tiendas</a></li>
+                    <li><a href="#">Preguntas frecuentes (FAQ)</a></li>
+                    <li><a href="#">Términos del servicio</a></li>
+                    <li><a href="#">Política de reembolso</a></li>
+                    <li><a href="#">Libro de reclamaciones</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>CONTACTO</h2>
+                <p>Teléfono: 936 532 320 anexo 121</p>
+                <p>Correo: <a href="mailto:clothing_belle@yahoo.com">clothing_belle@yahoo.com</a></p>
+                <p>Whatsapp: +51 925 768 026</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
                 </div>
-
-                <div class="column">
-                    <ul class="footer-ul">
-                        <li class="footer-item">
-                            <h3 class="has-text-weight-bold">Porqué comprar</h3>
-                        </li>
-                        <li class="footer-item"><a class="footer-link" href="#">Envios y retornos</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Envios seguros</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Testimonios </a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Award waining</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Etival trading</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <ul class="footer-ul">
-                        <li class="footer-item">
-                            <h3 class="has-text-weight-bold">Tu cuenta</h3>
-                        </li>
-                        <li class="footer-item"><a class="footer-link" href="#">Iniciar sesión</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Registro</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Ver carrito </a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Ver catálogo</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Track an order</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <ul class="footer-ul">
-                        <li class="footer-item">
-                            <h3 class="has-text-weight-bold">Catalogo</h3>
-                        </li>
-                        <li class="footer-item"><a class="footer-link" href="#">Catálogo</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Catálogo para mujeres</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Ver tu Catalogo </a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Borrar tu catalogo</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-
-                    <ul class="footer-ul">
-                        <li class="footer-item">
-                            <h3 class="has-text-weight-bold">Datos de contacto</h3>
-                        </li>
-                        <li class="footer-item"><a class="footer-link" href="#">Head</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Catálogo para mujeres</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Ver tu Catalogo </a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Privacidad y cookies</a></li>
-                        <li class="footer-item"><a class="footer-link" href="#">Borrar tu catalogo</a></li>
-                    </ul>
-                </div>
-                <div class="column is-full">
-                    <div class="footer-socials">
-                        <!-- <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-facebook"></i></a>
-                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-twitter"></i></a>
-                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-instagram"></i></a>
-                        <a class="footer-solcials-link" href="#"><i class="zmdi zmdi-pinterest"></i></a> -->
-                    </div>
-                </div>
+            </div>
+            <div class="footer-section">
+                <h2>NEWSLETTER</h2>
+                <p>¡Recibe 10% en tu primera compra, entérate antes que nadie de nuestras novedades y ten acceso a
+                    descuentos exclusivos!</p>
+                <form>
+                    <input type="email" placeholder="Correo electrónico">
+                    <button type="submit">ENVIAR</button>
+                </form>
             </div>
         </div>
-        <div class="footer-bar-top">
-            <div class="container">
-                <a class="footer-bar-top-links" href="#">2024 Belle Clothing</a>
-            </div>
+        <div class="footer-bottom">
+            <p>© 2024 Belle Clothing.</p>
         </div>
     </footer>
     <script src="js/main.js"></script>
