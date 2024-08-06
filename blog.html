@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+    <title>Belle Clothing Blog</title>
+    <link rel="icon" href="./img/icono.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X8DLTNZ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Barra de navegación -->
+    <nav class="bg-gray-100 p-4">
+        <div class="flex justify-between items-center">
+            <a class="text-xl font-bold" href="index.html">Belle Clothing</a>
+            <button id="navbar-burger" class="md:hidden flex items-center px-3 py-2 border rounded text-gray-800 border-gray-400 hover:text-gray-900 hover:border-gray-900">
+                <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+            <div id="navbar-menu" class="hidden md:flex md:items-center md:space-x-4">
+                <a class="text-gray-800 hover:text-gray-900" href="index.html">Inicio</a>
+                <a class="text-gray-800 hover:text-gray-900" href="catalog.html">Catálogo</a>
+                <a class="text-gray-800 hover:text-gray-900" href="lookbook.html">Ofertas</a>
+                <a class="text-gray-800 hover:text-gray-900" href="brand.html">Sobre Nosotros</a>
+                <a class="text-gray-800 hover:text-gray-900" href="blog.html">Blog</a>
+            </div>
+            <div id="navbar-social" class="hidden md:flex md:items-center space-x-4">
+                <a href="https://wa.me/51925768026" class="text-white bg-blue-500 hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">
+                    <span class="mdi mdi-whatsapp"></span>
+                    WhatsApp
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100052223473489" class="text-gray-800 bg-gray-200 hover:bg-gray-300 px-3 py-2 rounded-md text-sm font-medium">
+                    <span class="mdi mdi-facebook"></span>
+                    Facebook
+                </a>
+                <a href="https://www.tiktok.com/@belle_clothingg?_t=8mtvuKCoeoP&_r=1" class="text-gray-800 bg-gray-200 hover:bg-gray-300 px-3 py-2 rounded-md text-sm font-medium">
+                    <span class="mdi mdi-tiktok"></span>
+                    Tiktok
+                </a>
+            </div>
+        </div>
+        <div id="navbar-menu-mobile" class="md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a class="text-gray-800 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" href="index.html">Inicio</a>
+                <a class="text-gray-800 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" href="catalog.html">Catálogo</a>
+                <a class="text-gray-800 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" href="lookbook.html">Ofertas</a>
+                <a class="text-gray-800 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" href="brand.html">Sobre Nosotros</a>
+                <a class="text-gray-800 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium" href="blog.html">Blog</a>
+            </div>
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="https://wa.me/51925768026" class="text-white bg-blue-500 hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium">
+                    <span class="mdi mdi-whatsapp"></span>
+                    WhatsApp
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100052223473489" class="text-gray-800 bg-gray-200 hover:bg-gray-300 block px-3 py-2 rounded-md text-base font-medium">
+                    <span class="mdi mdi-facebook"></span>
+                    Facebook
+                </a>
+                <a href="https://www.tiktok.com/@belle_clothingg?_t=8mtvuKCoeoP&_r=1" class="text-gray-800 bg-gray-200 hover:bg-gray-300 block px-3 py-2 rounded-md text-base font-medium">
+                    <span class="mdi mdi-tiktok"></span>
+                    Tiktok
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido del blog -->
+    <section class="py-8">
+        <div class="container mx-auto px-4 bg-gray-100">
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-3/4 px-4">
+                    <div class="prose max-w-none">
+                        <h1 class="text-3xl font-bold">Bienvenidos al Blog de Belle Clothing</h1>
+                        <p class="text-lg text-gray-700">Donde la moda se encuentra con la elegancia.</p>
+                        <p>En este espacio, compartiremos las últimas tendencias de moda, consejos de estilo, noticias sobre nuestros productos y mucho más. Nuestro objetivo es inspirarte y mantenerte al tanto de las novedades en el mundo de la moda.</p>
+                        <p>¡Gracias por ser parte de nuestra comunidad! Esperamos que disfrutes de nuestro contenido.</p>
+                    </div>
+                    <hr class="my-8">
+                    <h2 class="text-2xl font-semibold">Últimas Entradas</h2>
+                    <ul class="list-disc list-inside mt-4">
+                        <li><a href="#" class="text-blue-500 hover:underline">Cómo combinar tu gabardina para un look casual y elegante</a></li>
+                        <li><a href="#" class="text-blue-500 hover:underline">Tendencias de moda para esta temporada</a></li>
+                        <li><a href="#" class="text-blue-500 hover:underline">Consejos para cuidar tus prendas de Belle Clothing</a></li>
+                        <li><a href="#" class="text-blue-500 hover:underline">Entrevista con la diseñadora de nuestras últimas colecciones</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 px-4 mt-8 md:mt-0">
+                    <aside>
+                        <h3 class="text-lg font-bold mb-4">Categorías</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-800 hover:text-gray-900">Moda Casual</a></li>
+                            <li><a href="#" class="text-gray-800 hover:text-gray-900">Moda Formal</a></li>
+                            <li><a href="#" class="text-gray-800 hover:text-gray-900">Nuevas Colecciones</a></li>
+                            <li><a href="#" class="text-gray-800 hover:text-gray-900">Consejos de Estilo</a></li>
+                            <li><a href="#" class="text-gray-800 hover:text-gray-900">Historias de Clientes</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Cómo Vestirse en Clima Cálido -->
+<section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold mb-6 text-gray-800 text-center">Cómo Vestirse en Clima Cálido</h1>
+        <p class="text-lg mb-6 text-gray-600 text-center">Mantente fresco y cómodo durante los días calurosos con nuestra guía sobre cómo elegir la ropa adecuada para cada ocasión.</p>
+        
+        <!-- Ropa Casual -->
+        <div class="mb-12">
+            <h2 class="text-3xl font-semibold mb-4 text-gray-800">Outfit Casual Ideal</h2>
+            <div class="flex flex-wrap items-center justify-center">
+                <div class="w-full md:w-1/2 lg:w-[25rem] px-4 mb-6">
+                    <img src="./img/blog1.jpg" alt="Outfit Casual" class="w-full h-auto rounded-lg shadow-md border border-gray-200">
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-6">
+                    <h3 class="text-xl font-medium mb-4 text-gray-800">Camisa de Algodón y Pantalones Cortos</h3>
+                    <p class="text-gray-600 mb-4"><strong>Camisa de Algodón:</strong> Fabricada en algodón ligero y transpirable, esta camisa te asegura comodidad y frescura durante todo el día. Ideal para un look casual pero elegante.</p>
+                    <p class="text-gray-600 mb-4"><strong>Pantalones Cortos:</strong> Confeccionados en lino o algodón, estos pantalones ofrecen una excelente transpirabilidad. Perfectos para mantenerte fresco sin sacrificar el estilo.</p>
+                    <p class="text-gray-600"><strong>Sandalias:</strong> Hechas de cuero o material sintético, estas sandalias permiten una buena ventilación y ofrecen una comodidad duradera.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ropa Formal -->
+        <div class="mb-12">
+            <h2 class="text-3xl font-semibold mb-4 text-gray-800">Outfit Formal Ideal</h2>
+            <div class="flex flex-wrap items-center justify-center">
+                <div class="w-full md:w-1/2 lg:w-[25rem] px-4 mb-6">
+                    <img src="./img/blog2.jpg" alt="Outfit Formal" class="w-full h-auto rounded-lg shadow-md border border-gray-200">
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/2 px-4 mb-6">
+                    <h3 class="text-xl font-medium mb-4 text-gray-800">Camisa de Lino y Pantalones de Lino</h3>
+                    <p class="text-gray-600 mb-4"><strong>Camisa de Lino:</strong> Esta camisa es ideal para eventos formales en climas cálidos. Su tejido de lino proporciona ligereza y absorción de humedad, asegurando que te mantengas fresco y cómodo.</p>
+                    <p class="text-gray-600 mb-4"><strong>Pantalones de Lino:</strong> Con un diseño que favorece la ventilación, estos pantalones son perfectos para ocasiones formales, ofreciendo un look elegante sin sobrecalentarte.</p>
+                    <p class="text-gray-600"><strong>Zapatos Ligeros:</strong> Fabricados en cuero o tela ligera, estos zapatos combinan estilo y comodidad, manteniendo tus pies frescos durante eventos largos.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accesorios -->
+        <div class="mb-12">
+            <h2 class="text-3xl font-semibold mb-4 text-gray-800">Accesorios Clave</h2>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/3 px-4 mb-6">
+                    <img src="./img/blog3.jpg" alt="Sombrero de ala ancha" class="w-full h-auto rounded-lg shadow-md border border-gray-200">
+                    <h3 class="text-xl font-medium mt-4 text-gray-800">Sombrero de Ala Ancha</h3>
+                    <p class="text-gray-600">Fabricado en fibra natural o sintética, este sombrero no solo protege del sol, sino que también añade un toque de estilo a cualquier atuendo.</p>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-6">
+                    <img src="./img/blog4.jpg" alt="Gafas de sol" class="w-full h-auto rounded-lg shadow-md border border-gray-200">
+                    <h3 class="text-xl font-medium mt-4 text-gray-800">Gafas de Sol</h3>
+                    <p class="text-gray-600">Equipadas con lentes de protección UV, estas gafas son esenciales para proteger tus ojos del sol y complementar tu look.</p>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mb-6">
+                    <img src="./img/blog5.jpg" alt="Bufanda ligera" class="w-full h-auto rounded-lg shadow-md border border-gray-200">
+                    <h3 class="text-xl font-medium mt-4 text-gray-800">Bufanda Ligera</h3>
+                    <p class="text-gray-600">Hecha de algodón o seda, esta bufanda es ideal para proteger el cuello del sol sin causar sobrecalentamiento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-100 py-8">
+        <div class="container mx-auto text-center">
+            <div class="flex flex-wrap -mx-4 mb-4">
+                <div class="w-full md:w-1/4 px-4">
+                    <ul>
+                        <li class="font-semibold">Información</li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">La marca</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Local stores</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Servicios</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Privacidad y cookies</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Mapa del sitio</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 px-4">
+                    <ul>
+                        <li class="font-semibold">Porqué comprar</li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Envios y retornos</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Opiniones</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Comodidad</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Asesoría a medida</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 px-4">
+                    <ul>
+                        <li class="font-semibold">Redes sociales</li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Facebook</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Twitter</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Instagram</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/4 px-4">
+                    <ul>
+                        <li class="font-semibold">Contacto</li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Trabaja con nosotros</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Soporte</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Preguntas frecuentes</a></li>
+                        <li><a href="#" class="text-gray-800 hover:text-gray-900">Términos y condiciones</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-gray-700">Belle Clothing 2024 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navbarBurger = document.getElementById('navbar-burger');
+            const navbarMenuMobile = document.getElementById('navbar-menu-mobile');
+            navbarBurger.addEventListener('click', () => {
+                navbarMenuMobile.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+
+</html>
